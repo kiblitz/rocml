@@ -1,0 +1,6 @@
+(library
+ (name rocml_test)
+ (inline_tests)
+ (libraries core rocml)
+ (preprocess
+  (pps ppx_jane ppx_rocml)))

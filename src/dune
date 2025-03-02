@@ -1,0 +1,7 @@
+(library
+ (name rocml)
+ (public_name rocml)
+ (inline_tests)
+ (libraries async core core_kernel.composition_infix)
+ (preprocess
+  (pps ppx_jane)))

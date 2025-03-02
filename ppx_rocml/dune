@@ -1,0 +1,6 @@
+(library
+ (name ppx_rocml)
+ (kind ppx_rewriter)
+ (libraries core ppxlib rocml)
+ (preprocess
+  (pps ppx_gen_rec ppx_jane ppxlib.metaquot)))
